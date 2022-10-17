@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e_commerce site</title>
+
+    <!-- front awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css"> 
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+</head>
+ <body>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+    <!-- navbar  -->
+      <header>
+        <nav class="navbar">
+           <div class="max_width">
+          <a href="#" class="logo">Tech <span>!go</span></a> 
+          <ul class="menu">
+          
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+       </div>
+        </nav>
+      </header>
+
+       <!-- home -->
+        <section id="home" class="pt-5 overflow-hidden">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="home-banner home-banner-1">
+                    <div class="home-banner-text">
+                      <h1>Laptop</h1>
+                      <h2>59% disscount in this season</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, iste exercitationem beatae dolor reprehenderit ex error architecto corrupti inventore aliquid cumque sint, voluptas ipsum reiciendis quos itaque dolorem! Porro, obcaecati.</p>
+                    </div>
+                </div> 
+              </div>
+              <div class="carousel-item">
+                <div class="home-banner home-banner-2">
+                  <div class="home-banner-text">
+                    <h1>Build your dream pc</h1>
+                    <h2>Enjoy 30% disscount in every pc build</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, iste exercitationem beatae dolor reprehenderit ex error architecto corrupti inventore aliquid cumque sint, voluptas ipsum reiciendis quos itaque dolorem! Porro, obcaecati.</p>
+                  </div>
+              </div> 
+              </div>
+              <div class="carousel-item">
+                <div class="home-banner home-banner-3">
+                  <div class="home-banner-text">
+                    <h1>iphone</h1>
+                    <h2>UK version available</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, iste exercitationem beatae dolor reprehenderit ex error architecto corrupti inventore aliquid cumque sint, voluptas ipsum reiciendis quos itaque dolorem! Porro, obcaecati.</p>
+                  </div>
+              </div> 
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true">
+                <span class="ti-angle-left slider angle"></span>
+              </span>
+              <span class="visually-hidden">Previous
+               
+              </span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true">
+                <span class="ti-angle-right slider angle"></span>
+              </span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </section>
+          <!-- product -->
+          <section class="product" id="product">
+            <div class="pt0">
+                <h1>Available Products</h1>
+            </div>
+            
+            <div class="row">
+                
+                <div id="display-card" class="row row-cols-1 row-cols-md-3 g-4 products col-9">
+                    <div class="card" style="width: 18rem;">
+                        <img src="iPhone-XR.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">iphone xr</h5>
+                          <h4>68000৳</h4>
+                          <p class="card-text">
+                            Size
+                            6.1 inches, 90.3 cm2
+                            Type
+                            Liquid Retina IPS LCD capacitive touchscreen, 16M colors
+                            Bezel-Less Display
+                            Notch Display
+                            Resolution
+                            828 x 1792 pixels
+                            Pixel Density
+                            326 ppi density
+                            Aspect Ratio
+                            19.5:9 ratio
+                            .</p>
+                            <button onclick="addtocard(68000)">Add to Card</button>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="spark-rgb.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">ZADAK SPARK RGB 8GB DDR4 3200MHZ DESKTOP GAMING RAM</h5>
+                          <h4>Offer Price:
+                            4,700৳
+                            Price:
+                            4,900৳</h4>
+                          <p class="card-text">    
+                            
+                            Stock:
+                            In Stock
+                            Product Code:
+                            25894
+                            Brand:
+                            ZADAK
+                            Model:
+                            SPARK RGB DDR4
+                            SKU:
+                            ZD4-SPR32C28-08GYB1
+                            Warranty:
+                            life-time.</p>
+                            <button onclick="addtocard(4700)">Add to Card</button>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="Apple-iPad.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Apple iPad 10.2 </h5>
+                          <h4>89000৳
+                            
+                          </h4>
+                          <p class="card-text">
+    
+                            Announced
+                            14 September 2021
+                            Released
+                            24 September 2021
+                            Made by
+                            USA
+                            Related Mobile
+                            ✔ Also known as Apple iPad 9th Gen, Apple iPad (9th generation).
+                        
+                        </p>
+                        <button onclick="addtocard(89000)">Add to Card</button>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="satellite-pro-c40.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">HP 15s-du1116TU Pentium Silver N5030 15.6" HD Laptop
+    
+                          </h5>
+                          <h4>79000৳
+                            
+                          </h4>
+                          <p class="card-text">
+    
+                            Processor: Intel Pentium Silver N5030 (4M Cache, 1.10 GHz up to 3.10 GHz)
+                            RAM: 4GB DDR4 2400MHz, Storage: 1TB HDD
+                            Display: 15.6" HD (1366 x 768)
+                            Features: Dual speakers, Windows 10 64-bit, Type-C
+                        
+                        .</p>
+                        <button onclick="addtocard(79000)">Add to Card</button>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="hp-laptop.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Toshiba Dynabook Satellite Pro C40-G-109 Celeron 5205U 14" HD Laptop</h5>
+                          <h4>57000৳
+                            
+                          </h4>
+                          <p class="card-text">
+    
+                            Processor: Intel Celeron 5205U (2M Cache, 1.90 GHz)
+                            RAM: 4GB 3200MHz. Storage: 128GB SSD
+                            Display: 14" HD (1,366 x 768)
+                            Features: Frameless black tile keyboard
+                        
+                        .</p>
+                          
+                        <button onclick="addtocard(57000)">Add to Card</button>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="Gigabyte GV-N710D3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Gigabyte GT 710 2GB DDR3 Graphics Card</h5>
+                          <h4>34000৳
+                            
+                          </h4>
+                          <p class="card-text">ore Clock: 954 MHz
+                            Clock Memory: v2.0 1600 MHz up to v1.0 1800 MHz
+                            Memory Size / Type: 2 GB / DDR3
+                            Dual-link DVI-D*1,HDMI*,1D-Sub*1.</p>
+                            
+                            <button onclick="addtocard(34000)">Add to Card</button> 
+                        </div>
+                      </div>
+                </div>
+                 
+                <div class=" my-card card w-25 p-2 col-3 ">
+                    <h2 class="text-center">My Card</h2>
+                    <hr>
+                    <h3>Total Products <span id="total-products">0</span></h3>
+                    <h3>Price
+                        <span id="price">0 </span>
+                    </h3>
+                    <h3>Delivery Charge <span id="delivery-charge"> 0 </span> BDT</h3>
+                    <hr>
+                    <h3> Shipping Charge<span id="Shipping-Charge"> 0 </span> BDT</h3>
+                    
+                    <h3>Total Price <span id="total">0 </span> BDT</h3>
+                    <h3> VAT <span id="vat">0 </span> BDT</h3>
+                    <h2>Total Price with VAT <span id="totalv"> 0 </span> BDT</h2>
+                    
+
+                    <button onclick="orderProducts()" class="btn btn-secondary">Order Now</button>
+                    <div id="details">
+    
+                    </div>
+    
+                </div>
+    
+    
+    
+    
+            </div>
+        </section>
+        <!-- <button onclick="addtocard(34000)">Add to Card</button>  -->
+        <!-- upcoming product -->
+        <section id="up_p">
+          <div class="pt0">
+              <h1>Upcoming Products</h1>
+          </div>
+          
+         
+              
+              <div id="display-card1" class="row row-cols-1 row-cols-md-3 g-4 products col-9">
+                  <div class="card" style="width: 18rem;">
+                      <img src="Apple-iPhone-14-Pro-Max.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">iPhone 14 Pro Max</h5>
+                        <h4>Available soon</h4>
+                        
+                        
+                      </div>
+                  </div>
+                  
+                  <div class="card" style="width: 18rem;">
+                      <img src="jio-jiobook-nb1112mm.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Jio JioBook NB1112MM Notebook</h5>
+                          <h4>Available soon</h4>
+                        
+                        
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <img src="lo.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Razer Blade 15 - QHD 240Hz - GeForce RTX 3070 Ti - Black</h5>
+                        
+                          
+                          <h4>Available soon</h4>
+                        
+                      </div>
+                    </div>
+                    
+                  
+                   
+                    
+      
+      </section>
+    
+        <!-- review -->
+          <section id="review">
+            <div class="pt">
+              <h1>Review</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="row">
+                                    
+                                    <div class="col-md-4">
+                                        <div class="single-box">
+                                            <div class="img-area">
+                                                <img src="shames.jpg" alt="">
+        
+                                            </div>
+                                            <div class="img-text">
+                                                <h2>Shames Farabi</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, at hic delectus inventore tenetur est deserunt cum reiciendis aspernatur, fugiat nesciunt sed blanditiis ullam perferendis tempore ratione aliquam eos!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-box">
+                                            <div class="img-area">
+                                                <img src="tanvir.jpg" alt="">
+        
+                                            </div>
+                                            <div class="img-text">
+                                                <h2>Tanvir kabir</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, at hic delectus inventore tenetur est deserunt cum reiciendis aspernatur, fugiat nesciunt sed blanditiis ullam perferendis tempore ratione aliquam eos!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-box">
+                                            <div class="img-area">
+                                                <img src="arafat.jpg" alt="">
+        
+                                            </div>
+                                            <div class="img-text">
+                                                <h2>Arafat Iqbal</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, at hic delectus inventore tenetur est deserunt cum reiciendis aspernatur, fugiat nesciunt sed blanditiis ullam perferendis tempore ratione aliquam eos!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                              </div>
+                              <div class="carousel-item">
+                                <div class="row">
+                                    
+                                    <div class="col-md-4">
+                                        <div class="single-box">
+                                            <div class="img-area">
+                                                <img src="ishrak.jpg" alt="">
+        
+                                            </div>
+                                            <div class="img-text">
+                                                <h2>Ishrak hasan</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, at hic delectus inventore tenetur est deserunt cum reiciendis aspernatur, fugiat nesciunt sed blanditiis ullam perferendis tempore ratione aliquam eos!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-box">
+                                            <div class="img-area">
+                                                <img src="antor.jpg" alt="">
+        
+                                            </div>
+                                            <div class="img-text">
+                                                <h2>Antor das</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, at hic delectus inventore tenetur est deserunt cum reiciendis aspernatur, fugiat nesciunt sed blanditiis ullam perferendis tempore ratione aliquam eos!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-box">
+                                            <div class="img-area">
+                                                <img src="ridoy.jpg" alt="">
+        
+                                            </div>
+                                            <div class="img-text">
+                                                <h2>Ridoy police</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, at hic delectus inventore tenetur est deserunt cum reiciendis aspernatur, fugiat nesciunt sed blanditiis ullam perferendis tempore ratione aliquam eos!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                              </div>
+                              
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            
+         </section>
+          <SECTION class="contact" id="contact">
+            <div class="titile">
+                <h1>CONTACT US</h1>
+               <h2>WE ARE READY TO LEAD INTO THE FUTURE</h2>
+    
+            </div>
+            <div class="box">
+                <form >
+                    <input type="text" name="name" class="form-control"
+                    placeholder="Enter Your Name" required><br>
+                    <input type="email" name="email" class="form-control"
+                    placeholder="Enter Your Email" required><br>
+                    <textarea name="message"  class="form-control"
+                    placeholder="Message" rows="4"></textarea><br>
+                    <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                </form>
+            </div>
+        </SECTION>
+          
+        
+        <div class="footer-dark">
+          <footer>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-6 col-md-3 item">
+                          <h3>Services</h3>
+                          <ul>
+                              <li><a href="#">Web design</a></li>
+                              <li><a href="#">Development</a></li>
+                              <li><a href="#">Hosting</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-6 col-md-3 item">
+                          <h3>About</h3>
+                          <ul>
+                              <li><a href="#">Company</a></li>
+                              <li><a href="#">Team</a></li>
+                              <li><a href="#">Careers</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-md-6 item text">
+                          <h3>Company Name</h3>
+                          <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                      </div>
+                      <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                  </div>
+                  <p class="copyright">Company Name © 2022</p>
+              </div>
+          </footer>
+        
+    
+
+
+
+
+ </body>
+</html>
